@@ -7,5 +7,5 @@ statsmodels==0.12.2
 matplotlib==3.5.2
 pystan==2.19.1.1
 Cython>=0.22
-cmdstanpy>=1.0.1
+cmdstanpy==0.9.6
 prophet==1.0.1
