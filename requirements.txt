@@ -6,5 +6,6 @@ scikit-learn==1.1.1
 statsmodels==0.12.2
 matplotlib==3.5.2
 kats
+cython==0.22
 pystan==2.19.1.1
 prophet
