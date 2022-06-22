@@ -7,8 +7,8 @@ import time
 import math
 import statsmodels
 from statsmodels.tsa.seasonal import seasonal_decompose
-from prophet import Prophet
-from prophet.plot import add_changepoints_to_plot
+# from prophet import Prophet
+# from prophet.plot import add_changepoints_to_plot
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
