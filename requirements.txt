@@ -5,4 +5,3 @@ keras==2.9.0
 scikit-learn==1.1.1
 matplotlib==3.5.2
 pystan==2.19.1.1
-kats==0.2.0
