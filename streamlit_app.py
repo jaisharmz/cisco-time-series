@@ -1,3 +1,5 @@
+os.system("pip install kats")
+
 import streamlit as st
 import pkg_resources
 import numpy as np
