@@ -1,3 +1,4 @@
+import os
 os.system("pip install kats")
 
 import streamlit as st
