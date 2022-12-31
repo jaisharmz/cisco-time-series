@@ -1,4 +1,5 @@
-pandas==1.2.4
+pandas==1.5.2
+numpy==1.24.1
 streamlit==0.84.0
 tensorflow==2.9.1
 keras==2.9.0
@@ -7,4 +8,3 @@ matplotlib==3.5.2
 statsmodels==0.13.5
 prophet==1.1.1
 ipython==8.7.0
-mxnet-mkl==1.6.0
