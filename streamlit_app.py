@@ -254,7 +254,7 @@ uploaded_file = st.file_uploader("Upload Data")
 if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
     df = pd.read_csv(uploaded_file)
-    st.write("First 1000 rows displayed:")
+    st.write("First " + str(min(df.shape[0],1000)) + " rows displayed:")
     st.write(df.head(1000))
 
 time_col = st.text_input("Time Column Name (Leave Blank for Index)", "time")
