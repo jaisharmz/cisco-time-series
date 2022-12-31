@@ -7,3 +7,4 @@ matplotlib==3.5.2
 statsmodels==0.13.5
 prophet==1.1.1
 ipython==8.7.0
+mxnet-mkl==1.6.0
