@@ -250,6 +250,10 @@ class TSModel():
     preds = self.model.predict(X_vals)
     return preds
 
+# Heading
+st.write("# Chronos")
+st.write("## Cisco Network Traffic Forecasting")
+
 uploaded_file = st.file_uploader("Upload Data")
 if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
