@@ -387,7 +387,8 @@ if st.button("Start Analysis"):
     data_rolling_avg = data_rolling_avg.dropna()
 
     sds = []
-
+    st.write(total_time)
+    st.write(periods_filt)
     for i in range(len(freqs_filt)):
       temp = data_rolling_avg
       for ii in range(len(sds)):
