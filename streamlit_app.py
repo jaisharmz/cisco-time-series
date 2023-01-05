@@ -367,7 +367,7 @@ if st.button("Start Analysis"):
       freqs_types_filt.append("month")
       freqs_filt.append(freq_week)
       freqs_types_filt.append("week")
-    else: # if total_time >= year_ms * 2:
+    if total_time >= year_ms * 2:
       freqs_filt.append(freq_year)
       freqs_types_filt.append("year")
       freqs_filt.append(freq_month)
