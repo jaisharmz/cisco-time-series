@@ -346,9 +346,9 @@ if st.button("Start Analysis"):
     freqs_filt = []
     freqs_types_filt = []
     total_time = df["time_ms"].iloc[-1] - df["time_ms"][0]
-    # if total_time <= minute_ms * 120:
-    #   freqs_filt.append(freq_minute)
-    #   freqs_types_filt.append("minute")
+    if total_time <= minute_ms * 120:
+      freqs_filt.append(freq_minute)
+      freqs_types_filt.append("minute")
     if total_time <= hour_ms * 48 and total_time >= hour_ms * 2:
       freqs_filt.append(freq_hour)
       freqs_types_filt.append("hour")
@@ -367,7 +367,7 @@ if st.button("Start Analysis"):
       freqs_types_filt.append("month")
       freqs_filt.append(freq_week)
       freqs_types_filt.append("week")
-    if total_time >= year_ms * 2:
+    else: # if total_time >= year_ms * 2:
       freqs_filt.append(freq_year)
       freqs_types_filt.append("year")
       freqs_filt.append(freq_month)
